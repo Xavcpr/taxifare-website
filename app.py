@@ -51,6 +51,6 @@ response = requests.get(url, params=params)
 if st.button('prediction ?'):
     # print is visible in the server output, not in the page
     print('prediction asked!')
-    st.write('prediction is', response.json())
+    st.write('prediction is', response.json(), "ça va, Nils, c'est pas si cher")
 else:
     st.write('I was not clicked 😞')
