@@ -14,6 +14,7 @@ if url == 'https://taxifare.lewagon.ai/predict':
 
     st.markdown('Maybe you want to use your own API for the prediction, not the one provided by Le Wagon...')
 
+)
 # '''
 
 # 2. Let's build a dictionary containing the parameters for our API...
